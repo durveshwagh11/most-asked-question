@@ -13,7 +13,7 @@ public class Java5 {
         if(a == b){
             System.out.println("Both number are eqaul");
         } else {
-            temp = Math.max(a, b);
+            temp = a > b ? a : b;
         }
         System.out.println(temp);
     }
